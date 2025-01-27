@@ -53,3 +53,10 @@ Probability distributions over data can be highly intricate mathematical entitie
 > **Learning Problem**: Given a training set $\\{(𝒙_n,y_n)\\}_{n=1}^N$ where each point follows a distribution 𝐏, find a function $h$ that minimizes the expected value of the loss $𝐄[l(h(𝒙),f(𝒙))]$ where $𝒙$ follows also the same distribution $𝐏$.
 
 Although this problem statement relates the performance inside and outside the training set, it has not allowed any solution so far...
+
+Welcome to My Home Page
+
+{% assign date = '2020-04-13T10:20:00Z' %}
+
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
